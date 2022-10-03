@@ -21,4 +21,7 @@ export class AboutComponent implements OnInit {
     );
     this.hideLinks=false;
   }
+  aboutMe(){
+    this.hideLinks=false;
+  }
 }

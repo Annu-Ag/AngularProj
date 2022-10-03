@@ -12,8 +12,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </head>
 <body>
    <div *ngIf="hideLinks"><h1 >  Hi !!</h1>   <br><br>
-    <a routerLink="company" (click)="aboutCompany()" >About Comapany</a><br><br>
-    <a routerLink="me" >About Me</a>
+    <a routerLink="company" (click)="aboutCompany()" routerLinkActive="active" >About Comapany</a><br><br>
+    <a routerLink="me"  (click)="aboutMe()" routerLinkActive="active">About Me</a>
     
    </div>
    <router-outlet></router-outlet>

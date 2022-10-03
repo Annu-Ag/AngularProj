@@ -7,8 +7,34 @@ div{
 table{
    background-color:#42144F ;
    color: #fff;
+   
 }
 h2{
     text-decoration: underline;
-    padding: 20px;
+    display: inline-block;
+   margin:20px 20px;
+    
+}
+.addUser{
+  float:right;
+  margin-top: 20px;
+  background-color: #8D3DAF;
+  color: #fff;
+  margin-right: 5px;
+  font-weight: 800;
+}
+span{
+    color: red;
+}
+.userData{
+  background-color: #8D3DAF;
+  height:300px;
+  width:300px;
+  padding:20px;
+  margin:0 auto;
+  border-radius: 25px;
+  margin-top:50px;
+}
+.userform{
+  display: inline;
 }
